@@ -50,7 +50,9 @@ int solutionTwo(std::vector<int> &numList) {
 }
 
 int main() {
+    
     std::vector<int> numList;
+
     if (input(numList)) {
         std::cout << solutionOne(numList) << std::endl;
         std::cout << solutionTwo(numList) << std::endl;
